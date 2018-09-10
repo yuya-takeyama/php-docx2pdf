@@ -1,0 +1,4 @@
+#!/bin/bash -eu
+
+docker build . -t yuya-takeyama/php-docx2pdf
+./bin/composer install

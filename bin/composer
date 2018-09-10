@@ -1,0 +1,3 @@
+#!/bin/bash -eu
+
+docker run -it -v `pwd`/:/app --entrypoint composer yuya-takeyama/php-docx2pdf $@
