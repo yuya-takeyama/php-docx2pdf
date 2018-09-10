@@ -1,0 +1,4 @@
+#!/bin/bash -eu
+
+file="${1}"
+docker run -it -v `pwd`/:/app yuya-takeyama/php-docx2pdf php docx2pdf.php "${file}"
